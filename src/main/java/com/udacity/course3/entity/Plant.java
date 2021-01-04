@@ -2,7 +2,7 @@ package com.udacity.course3.entity;
 
 import com.fasterxml.jackson.annotation.JsonView;
 import org.hibernate.annotations.Nationalized;
-import org.springframework.data.annotation.Id;
+import javax.persistence.Id;
 
 import javax.persistence.*;
 import java.math.BigDecimal;

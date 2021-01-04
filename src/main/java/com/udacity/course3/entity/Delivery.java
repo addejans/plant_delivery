@@ -2,7 +2,7 @@ package com.udacity.course3.entity;
 
 import org.hibernate.annotations.Nationalized;
 import org.hibernate.annotations.Type;
-import org.springframework.data.annotation.Id;
+import javax.persistence.Id;
 
 import javax.persistence.*;
 import java.time.LocalDateTime;
