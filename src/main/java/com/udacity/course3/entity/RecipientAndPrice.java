@@ -11,6 +11,21 @@ public class RecipientAndPrice {
         this.recipientName = recipientName;
         this.price = price;
     }
-    /* getters and setters */
+
+    public String getRecipientName() {
+        return recipientName;
+    }
+
+    public void setRecipientName(String recipientName) {
+        this.recipientName = recipientName;
+    }
+
+    public BigDecimal getPrice() {
+        return price;
+    }
+
+    public void setPrice(BigDecimal price) {
+        this.price = price;
+    }
 }
 
