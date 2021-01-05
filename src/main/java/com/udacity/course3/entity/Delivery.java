@@ -22,7 +22,7 @@ public class Delivery {
     private String address;
     private LocalDateTime deliveryTime;
     @Type(type = "yes_no")
-    private Boolean completed;
+    private Boolean completed = false;
 
     //make sure to specify mappedBy. Lazy fetch optional,
     //  but often a good idea for collection attributes
